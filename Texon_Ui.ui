@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>page</class>
+ <widget class="QDialog" name="page">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>750</width>
+    <height>531</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+
+QPushButton{
+	color:#4d4d4d;
+	border-radius:10px;
+	border:1px solid #ccc;
+	background-color:white;
+	padding: 6px ,8px;
+	font-family:&quot;Segoe UI &quot; , &quot;Tahoma&quot;;
+    font-size:13px;
+	
+}
+QPushButton:hover{
+	background-color: rgb(220, 220, 220);
+	border:1px solid #b25a4d;
+
+}
+
+QLabel{
+	background-color:rgba(178,90,77,0.6);
+    min-width: 300px;
+	min-height: 60px;
+	font-size : 14pt;
+	font-family:&quot;Segeo UI&quot;;
+	qproperty-alignment: 'AlignCenter';
+	border-radius:10px;
+}</string>
+  </property>
+  <widget class="QTextEdit" name="txt_input">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>20</y>
+     <width>611</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#page{
+	background-color:f0f0f0;
+
+}
+
+#txt_input{
+	background-color:rgba(178,90,77,0.77);
+	color:white;
+	border-radius:8px;
+	padding:10px;
+	font-family: 'Segeo Ui',sans-serif;
+	
+}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="txt_upper">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>263</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>To Upper Case</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="txt_lower">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>263</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>To Lower Case</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="txt_copitalize">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>263</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>To Copitalize</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="txt_reverse">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>263</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Reverse words</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="del_additional_space">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>300</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Delete Additional Space</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="count_words">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>300</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Count Words</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="count_char">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>300</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Count Charcters</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lab_words">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>370</y>
+     <width>300</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lab_char">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>370</y>
+     <width>300</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>300</width>
+     <height>60</height>
+    </size>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
